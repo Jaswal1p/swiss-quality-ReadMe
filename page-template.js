@@ -25,6 +25,10 @@ const generateAbout = aboutText => {
 }    
 
 const generateInstal = instalText => {
+    if (!aboutText) {
+        return '';
+    }
+
     return `
     <section class="my-3" id="about">
        <he class="text-dark bg-primary p-2 display-inline-block">About Me</h2>
@@ -36,52 +40,52 @@ const generateInstal = instalText => {
 
  
   
-const generateProjects = projectsArr => {
-    return `
-      <section class="my-3" id="portfolio">
-        <h2 class="text-dark bg-primary p-2 display-inline-block">Work</h2>
-        <div class="flex-row justify-space-between">
-        ${projectsArr
-          .filter(({ feature }) => feature)
-          .map(({ name, description, languages, link }) => {
-            return `
-            <div class="col-12 mb-2 bg-dark text-light p-3">
-              <h3 class="portfolio-item-title text-light">${name}</h3>
-              <h5 class="portfolio-languages">
-                Built With:
-                ${languages.join(', ')}
-              </h5>
-              <p>${description}</p>
-              <a href="${link}" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
-            </div>
-          `;
-          })
-          .join('')}
+// const generateProjects = projectsArr => {
+    // return `
+    //   <section class="my-3" id="portfolio">
+        // <h2 class="text-dark bg-primary p-2 display-inline-block">Work</h2>
+        // <div class="flex-row justify-space-between">
+        // ${projectsArr
+        //   .filter(({ feature }) => feature)
+        //   .map(({ name, description, languages, link }) => {
+        //     return `
+        //     <div class="col-12 mb-2 bg-dark text-light p-3">
+        //       <h3 class="portfolio-item-title text-light">${name}</h3>
+        //       <h5 class="portfolio-languages">
+        //         Built With:
+        //         ${languages.join(', ')}
+        //       </h5>
+        //       <p>${description}</p>
+        //       <a href="${link}" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+        //     </div>
+        //   `;
+        //   })
+        //   .join('')}
   
-        ${projectsArr
-          .filter(({ feature }) => !feature)
-          .map(({ name, description, languages, link }) => {
-            return `
-            <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
-              <h3 class="portfolio-item-title text-light">${name}</h3>
-              <h5 class="portfolio-languages">
-                Built With:
-                ${languages.join(', ')}
-              </h5>
-              <p>${description}</p>
-              <a href="${link}" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
-            </div>
-          `;
-          })
-          .join('')}
-        </div>
-      </section>
-    `;
-  };
+//         ${projectsArr
+//           .filter(({ feature }) => !feature)
+//           .map(({ name, description, languages, link }) => {
+//             return `
+//             <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
+//               <h3 class="portfolio-item-title text-light">${name}</h3>
+//               <h5 class="portfolio-languages">
+//                 Built With:
+//                 ${languages.join(', ')}
+//               </h5>
+//               <p>${description}</p>
+//               <a href="${link}" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+//             </div>
+//           `;
+//           })
+//           .join('')}
+//         </div>
+//       </section>
+//     `;
+//   };
   
   module.exports = templateData => {
   // // destructure page data by section
-  const { projects, table, about, ...header } = templateData;
+  const { table, about, ...header } = templateData;
   
   
       return `
@@ -110,10 +114,14 @@ const generateProjects = projectsArr => {
         </header>   
   
         <main class="container my-5">
-           ${generateTable(table)}
+           <div class="container flex-row justify-space-between align-center py-3">
+              <h2 class="page-title text-secondary bg-dark py-2 px-3">Table of Contents:${header.name}</h2>
+              ${generateTable(table)}
+           </div>
+
            ${generateAbout(about)}
            ${generateInstal(installation)}
-           ${generateProjects(projects)}
+           
         </main>
   
         <footer class="container text-center py-3">
