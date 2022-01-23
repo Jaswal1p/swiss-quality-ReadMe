@@ -1,6 +1,6 @@
 const { writeFile, copyFile } = require('fs');
 const inquirer = require('inquirer');
-const generatePage = require('./page-template.js');
+const generatePage = require('./src/page-template.js');
 
 const askUser = () => {
     return inquirer.prompt([
