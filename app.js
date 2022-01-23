@@ -30,6 +30,4 @@ askUser()
 .then(portfolioData => {
     return generatePage(portfolioData);
 })
-.then(pageHTML => {
-    return writeFile(pageHTML);
-})
+
