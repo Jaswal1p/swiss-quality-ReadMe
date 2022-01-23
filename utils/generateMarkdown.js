@@ -13,8 +13,35 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  https://github.com/${data.Username}/${data.Title}
 
-`;
+  # Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  # Description
+  ${data.Description}
+  
+
+  # Installation
+  The following must be installed to run this application.
+  # Usage
+  In order to use this app, ${data.Usage}
+  # License
+  This project is licensed under the ${data.License} license.
+  ![GitHub license](https://img.shield.io/badge/license-MIT-blue.svg)
+  # contributing
+  Contributors: ${data.Contributing}
+  # Tests
+  The following is needed to run the test: ${data.Tests}
+  # Questions
+  If you have any questions about the repo, open an issue or contact ${data.Github} or ${data.Email}
+  
+ `;
 }
 
 module.exports = generateMarkdown;
