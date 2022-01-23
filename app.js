@@ -1,6 +1,14 @@
-const { writeFile, copyFile } = require('fs');
+const { writeFile, copyFile, fstat } = require('fs');
 const inquirer = require('inquirer');
-const generatePage = require('./src/page-template.js');
+const generatePage = require('./utils/generateMarkdown.js');
+
+//const pageHTML = generatePage(name, description);
+
+// fs.writeFile('./index.html', pageHTML, err => {
+    // if (err) throw err;
+
+    //console.log('page complete! checkout index.html')
+// });
 
 const askUser = () => {
     return inquirer.prompt([
