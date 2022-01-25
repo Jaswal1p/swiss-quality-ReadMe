@@ -29,13 +29,14 @@ function generateMarkdown(data) {
 
   # Installation
   The following must be installed to run this application.
+  ${data.Installation}
   # Usage
   In order to use this app, ${data.Usage}
   # License
   This project is licensed under the ${data.License} license.
   ![GitHub license](https://img.shield.io/badge/license-MIT-blue.svg)
   # contributing
-  Contributors: ${data.Contributing}
+  Contributors: ${data.Contribution}
   # Tests
   The following is needed to run the test: ${data.Tests}
   # Questions
