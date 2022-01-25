@@ -33,9 +33,17 @@ const questions = [
     message: 'How to use this app/project? Please provide instructions',
 },
 {
-    type: 'input',
+    type: 'list',
     name: 'License',
-    message: 'Provide deatils of the license and post badge',
+    message: 'Please select license used for this project, from the following list',
+    choices: [
+        'MIT',
+        'BSD 3',
+        'APACHE 2.0',
+        'GVL-GPL 3.0',
+        'Other',
+        'None'
+    ]
 },
 {
     type: 'input',
