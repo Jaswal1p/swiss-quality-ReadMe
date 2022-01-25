@@ -1,5 +1,5 @@
-# undefined
-  https://github.com/undefined/Quality ReadMe
+# Awesome ReadMe Creator
+  https://github.com/Jaswal1p/Awesome ReadMe Creator
 
   # Table of Contents
   * [Installation](#installation)
@@ -16,14 +16,14 @@
   # Installation
   The following must be installed to run this application.
   # Usage
-  In order to use this app, nothing special
+  In order to use this app, To create high quality Readme files
   # License
   This project is licensed under the MIT license.
   ![GitHub license](https://img.shield.io/badge/license-MIT-blue.svg)
   # contributing
   Contributors: undefined
   # Tests
-  The following is needed to run the test: command line
+  The following is needed to run the test: use index.js on command line.
   # Questions
   If you have any questions about the repo, open an issue or contact Jaswal1p or Jaswal1p@yahoo.com
   
