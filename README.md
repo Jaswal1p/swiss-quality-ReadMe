@@ -1,5 +1,5 @@
-# Awesome ReadMe Creator
-  https://github.com/Jaswal1p/Awesome ReadMe Creator
+# swiss-quality-ReadMe
+  https://github.com/Jaswal1p/swiss-quality-ReadMe
 
   # Table of Contents
   * [Installation](#installation)
@@ -16,15 +16,15 @@
   # Installation
   The following must be installed to run this application.
   # Usage
-  In order to use this app, To create high quality Readme files
+  In order to use this app, To create quality ReadMe file from command line.
   # License
   This project is licensed under the MIT license.
   ![GitHub license](https://img.shield.io/badge/license-MIT-blue.svg)
   # contributing
   Contributors: undefined
   # Tests
-  The following is needed to run the test: use index.js on command line.
+  The following is needed to run the test: use node index.js from command line.
   # Questions
-  If you have any questions about the repo, open an issue or contact Jaswal1p or Jaswal1p@yahoo.com
+  If you have any questions about the repo/project, please open an issue or contact by my github username: Jaswal1p or my email: Jaswal1p@yahoo.com
   
  
