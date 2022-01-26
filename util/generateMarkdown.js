@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
        //switch (license) {
         // case "apache2":
-           return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+           return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
 }
 
 
@@ -26,7 +26,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.Title}
 
-  # ![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)(https://opensource.org/licenses/Apache-2.0)
+  # ![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
   https://github.com/${data.Github}/${data.Title}
 
@@ -49,7 +49,7 @@ function generateMarkdown(data) {
   In order to use this app, ${data.Usage}
   # License
   This project is licensed under the ${data.License} license.
-  ![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+  ![GitHub license](https://opensource.org/licenses/Apache-2.0)
   # contributing
   Contributors: ${data.Contribution}
   # Tests
