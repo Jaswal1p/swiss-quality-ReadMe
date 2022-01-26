@@ -1,4 +1,5 @@
 # swiss-quality-ReadMe
+  undefined
 
   ### ![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)  (https://opensource.org/licenses/Apache-2.0)
   <br>
@@ -13,26 +14,26 @@
   * [Questions](#questions)
   
   # Description
-  vdvvvv
+  vvfvvfv
   
 
   # Installation
   The following must be installed to run this application.
-  vvvv
+  vdvvv
 
   # Usage
-  In order to use this app, bfbbb
+  In order to use this app, vdvsdvv
 
   # License 
-  > This project is licensed under the MIT license.
+  > This project is licensed under the Apache 2.0 license.
   >
   > ![GitHub license](https://opensource.org/licenses/Apache-2.0)
 
   # contributing
-  Contributors: vdvvdv
+  Contributors: I and only I
 
   # Tests
-  The following is needed to run the test:  ccxvvxc
+  The following is needed to run the test: vvdvv
 
   # Questions
   If you have any questions about the repo/project, please open an issue or contact by my github username: Jaswal1p 

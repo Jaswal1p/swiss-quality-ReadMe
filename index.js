@@ -9,7 +9,7 @@ const licenseChoices = [
     "Apache 2.0",
     "Microsoft Public License",
     "None"
-]
+];
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -99,7 +99,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
      .then(function(data) {
-         writeToFile("README.md", generateMarkdown(data));
+         writeToFile("README.md", generateMarkdown(data, licenseChoices));
          console.log(data)
      })
 }
