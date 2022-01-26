@@ -1,8 +1,8 @@
-# sffdsvssv
+# swiss-quality-ReadMe
 
-  # ![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-
-  https://github.com/Jaswal1p/sffdsvssv
+  ### ![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)  (https://opensource.org/licenses/Apache-2.0)
+  <br>
+  https://github.com/Jaswal1p/swiss-quality-ReadMe
 
   # Table of Contents
   * [Installation](#installation)
@@ -13,24 +13,26 @@
   * [Questions](#questions)
   
   # Description
-  vvvvv
+  vdvvvv
   
 
   # Installation
   The following must be installed to run this application.
-  vvvcvvv
+  vvvv
 
   # Usage
-  In order to use this app, vvvvvv
+  In order to use this app, bfbbb
 
-  ## ![GitHub license](https://opensource.org/licenses/Apache-2.0)
-  This project is licensed under the APACHE 2.0 license.
-  
+  # License 
+  > This project is licensed under the MIT license.
+  >
+  > ![GitHub license](https://opensource.org/licenses/Apache-2.0)
+
   # contributing
-  Contributors: I and only I
+  Contributors: vdvvdv
 
   # Tests
-  The following is needed to run the test: vdvvv
+  The following is needed to run the test:  ccxvvxc
 
   # Questions
   If you have any questions about the repo/project, please open an issue or contact by my github username: Jaswal1p 

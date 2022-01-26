@@ -5,6 +5,12 @@ const util = require("util");
 
 const generateMarkdown = require('./util/generateMarkdown');
 
+const licenseChoices = [
+    "Apache 2.0",
+    "Microsoft Public License",
+    "None"
+]
+
 // TODO: Create an array of questions for user input
 const questions = [
 {
@@ -36,14 +42,16 @@ const questions = [
     type: 'list',
     name: 'License',
     message: 'Please select license used for this project, from the following list',
-    choices: [
-        'MIT',
-        'BSD 3',
-        'APACHE 2.0',
-        'GVL-GPL 3.0',
-        'Other',
-        'None'
-    ]
+    choices: licenseChoices
+    
+    //[
+    //    'MIT',
+    //    'BSD 3',
+    //    'APACHE 2.0',
+    //    'GVL-GPL 3.0',
+    //    'Other',
+    //    'None'
+    //]
 },
 {
     type: 'input',
