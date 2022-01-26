@@ -1,5 +1,13 @@
-# swiss-quality-ReadMe
-  https://github.com/Jaswal1p/swiss-quality-ReadMe
+# 
+
+  function renderLicenseBadge(license) {
+       switch (license) {
+         case "apache2":
+           return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+       }
+}
+
+  https://github.com/Jaswal1p/
 
   # Table of Contents
   * [Installation](#installation)
@@ -10,20 +18,21 @@
   * [Questions](#questions)
   
   # Description
-  You could have also written the function without the right-hand side assignment. However, if you leave out the right-hand side assignment, the function will look for at least one argument to be supplied when invoked, whereas in its current form, you can call drawChart() without supplying any parameters. The current design is useful if you want to be able to call the function without supplying any parameters. The other can be useful when you want to ensure an object is passed to the function.
+  
   
 
   # Installation
   The following must be installed to run this application.
+  
   # Usage
-  In order to use this app, To create quality ReadMe file from command line.
+  In order to use this app, 
   # License
-  This project is licensed under the MIT license.
+  This project is licensed under the APACHE 2.0 license.
   ![GitHub license](https://img.shield.io/badge/license-MIT-blue.svg)
   # contributing
-  Contributors: undefined
+  Contributors: 
   # Tests
-  The following is needed to run the test: use node index.js from command line.
+  The following is needed to run the test: 
   # Questions
   If you have any questions about the repo/project, please open an issue or contact by my github username: Jaswal1p or my email: Jaswal1p@yahoo.com
   
