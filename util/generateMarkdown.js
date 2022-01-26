@@ -4,6 +4,7 @@ function renderLicenseBadge(license) {
        //switch (license) {
         // case "apache2":
            return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
+       // case ""    
 }
 
 
@@ -45,17 +46,23 @@ function generateMarkdown(data) {
   # Installation
   The following must be installed to run this application.
   ${data.Installation}
+
   # Usage
   In order to use this app, ${data.Usage}
-  # License
+
+  ## ![GitHub license](https://opensource.org/licenses/Apache-2.0)
   This project is licensed under the ${data.License} license.
-  ![GitHub license](https://opensource.org/licenses/Apache-2.0)
+  
   # contributing
   Contributors: ${data.Contribution}
+
   # Tests
   The following is needed to run the test: ${data.Tests}
+
   # Questions
-  If you have any questions about the repo/project, please open an issue or contact by my github username: ${data.Github} or my email: ${data.Email}
+  If you have any questions about the repo/project, please open an issue or contact by my github username: ${data.Github} 
+  
+  or my email: ${data.Email}
   
  `;
 }
