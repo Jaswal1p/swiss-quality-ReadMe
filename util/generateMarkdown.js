@@ -26,7 +26,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.Title}
 
-  # renderLicenseBadge(license)
+  # ![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)(https://opensource.org/licenses/Apache-2.0)
 
   https://github.com/${data.Github}/${data.Title}
 
