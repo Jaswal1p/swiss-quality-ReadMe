@@ -2,10 +2,12 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license, licenseChoices) {
    if (license == licenseChoices[0]){
-     var bag = "https://img.shields.io/badge/License-Apache%202.0-blue.svg";
+     var bag = "https://img.shields.io/badge/License-Apache_2.0-blue.svg";
    } else if (license == licenseChoices[1]){
-     var bag = "https://img.shields.io/badge/License-Apache%202.0-blue.svg";
-   } else {
+     var bag = "https://img.shields.io/badge/License-MIT-yellow.svg";
+   } else if (License == licenseChoices[2]){
+     var bag = "https://img.shields.io/badge/License-IPL_1.0-blue.svg";
+   } else {  
      var bag = "";
   }
 
@@ -20,7 +22,9 @@ function renderLicenseLink(license, licenseChoices) {
   if (license == licenseChoices[0]){
     var lic = "https://opensource.org/license/Apache-2.0";
   } else if (license == licenseChoices[1]){
-    var lic = "https://opensource.org/licenses/MS-PL";
+    var lic = "https://opensource.org/licenses/MIT";
+  } else if (license == licenseChoices[1]){
+    var lic = "https://opensource.org/licenses/IPL-1.0";
   } else {
     var lic = "";
   }

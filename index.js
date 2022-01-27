@@ -7,7 +7,8 @@ const generateMarkdown = require('./util/generateMarkdown');
 
 const licenseChoices = [
     "Apache 2.0",
-    "Microsoft Public License",
+    "MIT",
+    "IBM",
     "None"
 ];
 
