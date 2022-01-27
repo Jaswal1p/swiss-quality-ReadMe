@@ -2,16 +2,16 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license, licenseChoices) {
    if (license == licenseChoices[0]){
-     var bag = "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
+     var bag = "https://img.shields.io/badge/License-Apache_2.0-blue.svg";
    } else if (license == licenseChoices[1]){
      var bag = "https://img.shields.io/badge/License-MIT-yellow.svg";
-   } else if (License == licenseChoices[2]){
+   } else if (license == licenseChoices[2]){
      var bag = "https://img.shields.io/badge/License-IPL_1.0-blue.svg";
    } else {  
      var bag = "";
   }
 
-  return "[View Badge](" + bag + ")";
+  return "![GitHub license](" + bag + ")";
 }
 
 
@@ -20,7 +20,7 @@ function renderLicenseBadge(license, licenseChoices) {
 // If there is no license, return an empty string
 function renderLicenseLink(license, licenseChoices) {
   if (license == licenseChoices[0]){
-    var lic = "https://opensource.org/license/Apache-2.0";
+    var lic = "https://opensource.org/licenses/Apache-2.0";
   } else if (license == licenseChoices[1]){
     var lic = "https://opensource.org/licenses/MIT";
   } else if (license == licenseChoices[1]){
@@ -52,7 +52,7 @@ function generateMarkdown(data, licenseChoices) {
   return `# ${data.Title}
   
   ## ${sec}
-
+  
   https://github.com/${data.Github}/${data.Title}
 
   # Table of Contents
@@ -77,7 +77,7 @@ function generateMarkdown(data, licenseChoices) {
   # License 
   > This project is licensed under the ${data.License} license.
   >
-  > ![GitHub license](https://opensource.org/licenses/Apache-2.0)
+  > Click on the above link adjacent to badge for details.
 
   # contributing
   Contributors: ${data.Contribution}
