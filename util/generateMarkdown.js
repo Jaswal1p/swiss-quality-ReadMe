@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license, licenseChoices) {
    if (license == licenseChoices[0]){
-     var bag = "https://img.shields.io/badge/License-Apache_2.0-blue.svg";
+     var bag = "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
    } else if (license == licenseChoices[1]){
      var bag = "https://img.shields.io/badge/License-MIT-yellow.svg";
    } else if (License == licenseChoices[2]){

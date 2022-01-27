@@ -1,6 +1,6 @@
 # swiss-quality-ReadMe
   
-  ## [View Badge](https://img.shields.io/badge/License-MIT-yellow.svg) [View License](https://opensource.org/licenses/MIT) 
+  ## [View Badge](![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)) [View License](https://opensource.org/license/Apache-2.0) 
 
   https://github.com/Jaswal1p/swiss-quality-ReadMe
 
@@ -13,26 +13,26 @@
   * [Questions](#questions)
   
   # Description
-  Collection of License badges for your Project's README file.
+  The badges do not fully replace the license informations for your projects, they are only emblems for the README, that the user can see the License at first glance.
   
 
   # Installation
   The following must be installed to run this application.
-  Easily copy and paste the code under the badges into your Markdown files.
+  vvdvvvv
 
   # Usage
-  In order to use this app, The badges do not fully replace the license informations for your projects, they are only emblems for the README, that the user can see the License at first glance.
+  In order to use this app, ddddbbbbb
 
   # License 
-  > This project is licensed under the MIT license.
+  > This project is licensed under the Apache 2.0 license.
   >
   > ![GitHub license](https://opensource.org/licenses/Apache-2.0)
 
   # contributing
-  Contributors: I and only I can!!!
+  Contributors: dddvdv
 
   # Tests
-  The following is needed to run the test: cjvvmvdvdmn
+  The following is needed to run the test: scccc
 
   # Questions
   If you have any questions about the repo/project, please open an issue or contact by my github username: Jaswal1p 
