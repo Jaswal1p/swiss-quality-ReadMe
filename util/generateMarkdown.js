@@ -23,7 +23,7 @@ function renderLicenseLink(license, licenseChoices) {
     var lic = "https://opensource.org/licenses/Apache-2.0";
   } else if (license == licenseChoices[1]){
     var lic = "https://opensource.org/licenses/MIT";
-  } else if (license == licenseChoices[1]){
+  } else if (license == licenseChoices[2]){
     var lic = "https://opensource.org/licenses/IPL-1.0";
   } else {
     var lic = "";
@@ -53,6 +53,8 @@ function generateMarkdown(data, licenseChoices) {
   
   ## ${sec}
   
+  # GitHub Repository Link
+
   https://github.com/${data.Github}/${data.Title}
 
   # Table of Contents
@@ -77,7 +79,8 @@ function generateMarkdown(data, licenseChoices) {
   # License 
   > This project is licensed under the ${data.License} license.
   >
-  > Click on the above link adjacent to badge for details.
+  > Click the above link adjacent to badge to read further details.
+  
 
   # contributing
   Contributors: ${data.Contribution}
@@ -86,9 +89,11 @@ function generateMarkdown(data, licenseChoices) {
   The following is needed to run the test: ${data.Tests}
 
   # Questions
-  If you have any questions about the repo/project, please open an issue or contact by my github username: ${data.Github} 
+  If you have any questions about the repo/project, please open an issue or contact by: 
   
-  or my email: ${data.Email}
+  my github username: [${data.Github}](https://github.com/${data.Github}) 
+  
+  my email: ${data.Email}
   
  `;
 }
