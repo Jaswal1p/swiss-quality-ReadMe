@@ -48,8 +48,8 @@ function generateMarkdown(data, licenseChoices) {
   return `# ${data.Title}
   ${sec}
 
-  ### ![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)  (https://opensource.org/licenses/Apache-2.0)
-  <br>
+  
+  
   https://github.com/${data.Github}/${data.Title}
 
   # Table of Contents
