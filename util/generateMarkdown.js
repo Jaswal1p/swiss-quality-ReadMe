@@ -37,7 +37,7 @@ function renderLicenseSection(license, licenseChoices) {
   var badge = renderLicenseBadge(license, licenseChoices);
   var link = renderLicenseLink(license, licenseChoices);
 
-  badge + " \r" + link + " ";
+  return badge + " \r" + link + " ";
 }
 
 
@@ -46,10 +46,9 @@ function generateMarkdown(data, licenseChoices) {
   var sec = renderLicenseSection(data.License, licenseChoices);
 
   return `# ${data.Title}
-  ${sec}
+  
+  ## ${sec}
 
-  
-  
   https://github.com/${data.Github}/${data.Title}
 
   # Table of Contents
