@@ -45,14 +45,6 @@ const questions = [
     message: 'Please select license used for this project, from the following list',
     choices: licenseChoices
     
-    //[
-    //    'MIT',
-    //    'BSD 3',
-    //    'APACHE 2.0',
-    //    'GVL-GPL 3.0',
-    //    'Other',
-    //    'None'
-    //]
 },
 {
     type: 'input',
