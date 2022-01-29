@@ -65,8 +65,14 @@ function generateMarkdown(data, licenseChoices) {
  
  # Description
  ${data.Description}
+
+
  # Screenshot
  ![alt text](assets/images/screenshot.png)
+
+ # Video link
+ https://watch.screencastify.com/v/jVH4jI1y9N3UVk3oUhIw
+
  # Installation
  The following must be installed to run this application.
  ${data.Installation}
