@@ -55,6 +55,7 @@ function generateMarkdown(data, licenseChoices) {
  
  # GitHub Repository Link
  https://github.com/${data.Github}/${data.Title}
+ 
  # Table of Contents
  * [Installation](#installation)
  * [Usage](#usage)
