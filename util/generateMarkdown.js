@@ -67,7 +67,9 @@ function generateMarkdown(data, licenseChoices) {
   
   # Description
   ${data.Description}
-  
+
+  # Screenshot
+  ![alt text](assets/images/screenshot.png)
 
   # Installation
   The following must be installed to run this application.
