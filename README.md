@@ -4,12 +4,12 @@
  
  # GitHub Repository Link
  https://github.com/Jaswal1p/Repos/swiss-quality-ReadMe
- 
+
  # Table of Contents
  * [Installation](#installation)
  * [Usage](#usage)
  * [License](#license)
- * [Contributing](#contributing)
+ * [Contributing](#Contributing)
  * [Tests](#tests)
  * [Questions](#questions)
  
@@ -25,7 +25,7 @@
 
  # Installation
  The following must be installed to run this application.
- The following must be installed to run this application. Node.js, fs, npm dependencies, package.JSON, VScode, GitHub, licenses and their badges.
+ The following must be installed to run this application. The following must be installed to run this application. Node.js, fs, npm dependencies, package.JSON, VScode, GitHub, licenses and their badges.
  # Usage
  In order to use this app, This app is to create professional quality readMe file for any repository, with details, badges, links as well as github and email links to help user contact for more details.
  # License 
@@ -33,8 +33,9 @@
  >
  > Click the above link adjacent to badge to read further details.
  
- # contributing
+ # Contributing
  Contributors: I and only I can contribute to this project as this time.  
+
  # Tests
  The following is needed to run the test: Some day with more established skills I will be able to put this out for contributions from other great developers. 
  # Questions
