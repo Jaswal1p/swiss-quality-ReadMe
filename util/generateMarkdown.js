@@ -55,12 +55,12 @@ function generateMarkdown(data, licenseChoices) {
  
  # GitHub Repository Link
  https://github.com/${data.Github}/${data.Title}
- 
+
  # Table of Contents
  * [Installation](#installation)
  * [Usage](#usage)
  * [License](#license)
- * [Contributing](#contributing)
+ * [Contributing](#Contributing)
  * [Tests](#tests)
  * [Questions](#questions)
  
@@ -84,8 +84,9 @@ function generateMarkdown(data, licenseChoices) {
  >
  > Click the above link adjacent to badge to read further details.
  
- # contributing
+ # Contributing
  Contributors: ${data.Contribution}
+
  # Tests
  The following is needed to run the test: ${data.Tests}
  # Questions
