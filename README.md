@@ -1,6 +1,7 @@
 # swiss-quality-ReadMe
  
- ## ![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg) [View License](https://opensource.org/licenses/MIT) 
+ ## ![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg) 
+[View License](https://opensource.org/licenses/MIT) 
  
  # GitHub Repository Link
  https://github.com/Jaswal1p/swiss-quality-ReadMe
